@@ -7,6 +7,6 @@ import java.util.Date;
  */
 public class Secretaire extends Biatoss {
     public Secretaire(String nom, String prenom, String id, Contrat contrat) {
-        super(nom, prenom, id, contrat);
+        super(nom, prenom, id, (CDD)contrat);
     }
 }
